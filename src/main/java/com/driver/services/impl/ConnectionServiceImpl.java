@@ -9,7 +9,7 @@ import java.util.Comparator;
 import java.util.List;
 
 @Service
-public class ConnectionServiceImpl implements  ConnectionServices{
+public class ConnectionServiceImpl implements ConnectionService {
 
     @Autowired
     ConnectionRepository connectionRepository;
